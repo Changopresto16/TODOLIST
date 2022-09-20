@@ -1,5 +1,5 @@
 * {
-   
+    
     box-sizing: border-box;
     margin: 2%;
     padding: 2%;
@@ -8,16 +8,23 @@
 }
 
 body {
-    
-    display: flex;
+    width: 75%;
+    height: 850px;
+    background-color: black;
+    background-image: url("https://i.pinimg.com/736x/ec/f5/86/ecf58687e0f4fe68baa91d31a53dfd84.jpg");
+   
+    position: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     border-style: inset;
-    background: gray;
+    
 }
 
 .todo-app {
     display: flex;
     flex-direction: column;
-    justify-content: start;
+    justify-content: center;
     width: 520px;
     min-height: 600px;
     background: #161a2b;
