@@ -1,15 +1,17 @@
 * {
+   
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+    margin: 2%;
+    padding: 2%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
         'Lucida Sans', Arial, sans-serif;
 }
 
 body {
-    background: linear-gradient(90deg,
-            rgba(48, 16, 255, 1) 0%,
-            rgba(100, 115, 255, 1) 100%);
+    
+    display: flex;
+    border-style: inset;
+    background: gray;
 }
 
 .todo-app {
@@ -29,6 +31,7 @@ h1 {
     margin: 32px 0;
     color: #fff;
     font-size: 24px;
+    font-family: 'Bungee Spice', cursive;
 }
 
 .complete {
@@ -37,10 +40,12 @@ h1 {
 }
 
 .todo-form {
+    display: flex;
     margin-bottom: 32px;
 }
 
 .todo-input {
+    display: flex;
     padding: 14px 32px 14px 16px;
     border-radius: 4px 0 0 4px;
     border: 2px solid #5d0cff;
