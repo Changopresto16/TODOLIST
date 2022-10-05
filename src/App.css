@@ -1,23 +1,36 @@
 * {
     
     box-sizing: border-box;
-    margin: 2%;
-    padding: 2%;
+    padding: 1%;
+    margin: 1%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
         'Lucida Sans', Arial, sans-serif;
 }
 
+.App{
+    justify-content: center;
+    justify-self: center;
+    text-align: center;
+    width: 87%;
+    height: max-content;
+    border: 2mm;
+    border-style: ridge;
+    border-color: pink;
+
+}
+
+
 body {
-    width: 75%;
-    height: 850px;
-    background-color: black;
-    background-image: url("https://i.pinimg.com/736x/ec/f5/86/ecf58687e0f4fe68baa91d31a53dfd84.jpg");
-   
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    background-color: rgb(156, 116, 170);
+    
     position: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    border-style: inset;
+
     
 }
 
@@ -25,11 +38,8 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 520px;
-    min-height: 600px;
     background: #161a2b;
     text-align: center;
-    margin: 128px auto;
     border-radius: 10px;
     padding-bottom: 32px;
 }
@@ -55,7 +65,7 @@ h1 {
     display: flex;
     padding: 14px 32px 14px 16px;
     border-radius: 4px 0 0 4px;
-    border: 2px solid #5d0cff;
+    border: 2px solid #ffc20c;
     outline: none;
     width: 320px;
     background: transparent;
@@ -73,8 +83,8 @@ h1 {
     cursor: pointer;
     outline: none;
     background: linear-gradient(90deg,
-            rgba(93, 12, 255, 1) 0%,
-            rgba(155, 0, 250, 1) 100%);
+            rgb(243, 62, 7) 0%,
+            rgb(250, 183, 0) 100%);
     color: #fff;
     text-transform: capitalize;
 }
